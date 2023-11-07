@@ -1,0 +1,51 @@
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  background-color: red;
+  margin: auto;
+  display: flex;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.reset {
+  width: 250px;
+  font-size: 24px;
+  font-style: bold;
+  height: 50px;
+  color: red;
+  background: yellow;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+.stop {
+  width: 250px;
+  font-size: 24px;
+  font-style: bold;
+  height: 50px;
+  color: red;
+  background: yellow;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+.block-button {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  position: fixed;
+  left: 40%;
+  top: 45%;
+}
